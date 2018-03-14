@@ -8,6 +8,11 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Bubble sort" HorizontalAlignment="Center" Margin="0,100,496,0" VerticalAlignment="Top" Height="64" Width="200" FontSize="24"/>
+        <Button Content="Quicksort" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Height="64" Width="200" FontSize="24"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,30,0,0" Text="" VerticalAlignment="Top" FontSize="24" Width="512" PlaceholderText="Enter numbers" AcceptsReturn="False" InputScope="Number"/>
+        <Button Content="Bogosort" HorizontalAlignment="Center" Margin="496,100,0,0" VerticalAlignment="Top" Height="64" Width="200" FontSize="24"/>
+        <Canvas HorizontalAlignment="Center" Height="320" Margin="0,300,0,0" VerticalAlignment="Top" Width="640"/>
 
     </Grid>
 </Page>
